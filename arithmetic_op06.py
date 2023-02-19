@@ -10,9 +10,9 @@
 
 number = 13
 
-answer = number % 2
-
 number = number / 2 
+
+answer = number - int(number)
 
 print(answer) 
 
